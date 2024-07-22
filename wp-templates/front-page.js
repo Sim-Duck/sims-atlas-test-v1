@@ -72,6 +72,15 @@ export default function Component(props) {
             <h3>Contribute →</h3>
             <p>Visit us on GitHub to explore how you can contribute!</p>
           </Link>
+
+          <Link
+            href="https://github.com/"
+            className={style.card}
+          >
+            <h3>Bonus card</h3>
+            <p>This is new and exciting</p>
+          </Link>
+
         </section>
       </main>
 
